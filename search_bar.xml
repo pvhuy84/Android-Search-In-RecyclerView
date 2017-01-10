@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_horizontal">
+    <EditText
+        android:id="@+id/edt_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/search_hint"
+        android:textColorHint="@color/white_light"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@null"
+        android:background="@color/search_bar_bg"/>
+</RelativeLayout>
